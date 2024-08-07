@@ -1,0 +1,32 @@
+[
+    {
+        "grouping":"Languages, Operating Systems & Tools",
+        "skills":[
+          {"name": "Python"},
+          {"name": "Ruby"},
+          {"name": "Linux"},
+          {"name": "Java"},
+          {"name": "Javascript"}
+        ] 
+    },
+    {
+        "grouping":"Platform Development & Administration",
+        "skills":[ "Jira", "Vault", "Nomad", "Consul" ]
+    },
+    {
+        "grouping":"Data Management",
+        "skills":[
+          {"name":"Microsoft SQL Server","icon":"msql_server"},
+          {"name":"Oracle","icon":"database"},
+          "MongoDB",
+          {"name":"Apache Spark"}
+        ]
+    },
+    {
+      "grouping":"Containers & Cloud",
+        "skills":[
+            {"name":"Docker","link":"https://docker.com"},
+            {"name":"AWS","link":"https://aws.amazon.com","icon":"amazonwebservices"}
+        ]
+    }
+  ]

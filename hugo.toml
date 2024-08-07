@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'resume'
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+    address = "Boston, MA"
+    email = "tranvincent.official@gmail.com"
+    favicon = "/favicon.ico"
+    firstName = "Vincent"
+    lastName = "Tran"
+    phone = "1-781-308-9708"
+    profileImage = "img/Professional Photo.jpg"
+    showQr = false
+    showContact = true
+    sections = ["skills","projects","experience","education"]
+    showSocializations = true
+
+[[params.handles]]
+    link = "https://www.linkedin.com/in/vincenttranofficial/"
+    name = "LinkedIn"
+    weight = 1
+
+[[params.handles]]
+    link = "https://github.com/VindettaP/"
+    name = "GitHub"
+    weight = 2
+
+[outputs]
+    home = ["HTML", "JSON"]
+
+[taxonomies]
+    tag = "tags"
