@@ -6,27 +6,21 @@
           {"name": "Ruby"},
           {"name": "Linux"},
           {"name": "Java"},
-          {"name": "Javascript"}
+          {"name": "Javascript"},
+          {"name": "Puppeteer"},
+          {"name": "Playwright"}
         ] 
     },
     {
         "grouping":"Platform Development & Administration",
-        "skills":[ "Jira", "Vault", "Nomad", "Consul" ]
-    },
-    {
-        "grouping":"Data Management",
-        "skills":[
-          {"name":"Microsoft SQL Server","icon":"msql_server"},
-          {"name":"Oracle","icon":"database"},
-          "MongoDB",
-          {"name":"Apache Spark"}
-        ]
+        "skills":[ "Jira", "Vault", "Nomad", "Consul", "Confluence" ]
     },
     {
       "grouping":"Containers & Cloud",
         "skills":[
             {"name":"Docker","link":"https://docker.com"},
-            {"name":"AWS","link":"https://aws.amazon.com","icon":"amazonwebservices"}
+            {"name":"AWS","link":"https://aws.amazon.com","icon":"amazonwebservices"},
+            {"name": "Heroku"}
         ]
     }
   ]
